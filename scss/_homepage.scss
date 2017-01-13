@@ -1,0 +1,62 @@
+img {
+	max-width: 100%;
+}
+#wrapper{
+	background: url(../img/bg.jpg) no-repeat 100%;
+	background-size: cover;
+	background-attachment: fixed; 
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	margin: 10px;
+	overflow: hidden;
+}
+#calendar {
+	margin-bottom: 20px;
+}
+.headers{
+	margin:40px 0 20px 0;
+}
+#christmas-calendar {
+	position: relative;
+	
+}
+.snow {
+	position: absolute;
+	top: 0;
+}
+.date{
+	height: 100px;
+    width: 100%;
+	position: relative;
+	.photo, .cover {
+		position: absolute;
+		cursor: pointer;
+	} 
+}
+.corner{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+    display: none;
+}
+
+.delay1{
+	animation-delay: 0.5s; 
+	animation-duration: 3s; 
+}
+.delay2{
+	animation-delay: 1s; 
+	animation-duration: 3s; 
+}
+.delay3{
+	animation-delay: 1.5s; 
+	animation-duration: 3s; 
+}
+.delay4{
+	animation-delay: 2s; 
+	animation-duration: 3s; 
+}
+.delay5{
+	animation-delay: 2.5s; 
+	animation-duration: 3s; 
+}

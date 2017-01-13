@@ -1,0 +1,114 @@
+/* line 1, ../scss/_homepage.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 4, ../scss/_homepage.scss */
+#wrapper {
+  background: url(../img/bg.jpg) no-repeat 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+/* line 13, ../scss/_homepage.scss */
+#calendar {
+  margin-bottom: 20px;
+}
+
+/* line 16, ../scss/_homepage.scss */
+.headers {
+  margin: 40px 0 20px 0;
+}
+
+/* line 19, ../scss/_homepage.scss */
+#christmas-calendar {
+  position: relative;
+}
+
+/* line 23, ../scss/_homepage.scss */
+.snow {
+  position: absolute;
+  top: 0;
+}
+
+/* line 27, ../scss/_homepage.scss */
+.date {
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+/* line 31, ../scss/_homepage.scss */
+.date .photo, .date .cover {
+  position: absolute;
+  cursor: pointer;
+}
+
+/* line 36, ../scss/_homepage.scss */
+.corner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+/* line 43, ../scss/_homepage.scss */
+.delay1 {
+  animation-delay: 0.5s;
+  animation-duration: 3s;
+}
+
+/* line 47, ../scss/_homepage.scss */
+.delay2 {
+  animation-delay: 1s;
+  animation-duration: 3s;
+}
+
+/* line 51, ../scss/_homepage.scss */
+.delay3 {
+  animation-delay: 1.5s;
+  animation-duration: 3s;
+}
+
+/* line 55, ../scss/_homepage.scss */
+.delay4 {
+  animation-delay: 2s;
+  animation-duration: 3s;
+}
+
+/* line 59, ../scss/_homepage.scss */
+.delay5 {
+  animation-delay: 2.5s;
+  animation-duration: 3s;
+}
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* line 15, ../scss/_mobile.scss */
+  #christmas-calendar {
+    max-width: 730px;
+    margin: 0 auto;
+  }
+  /* line 18, ../scss/_mobile.scss */
+  #christmas-calendar .date {
+    margin: 10px;
+  }
+
+  /* line 22, ../scss/_mobile.scss */
+  .date {
+    height: 140px;
+    width: 140px;
+  }
+}
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+/* line 15, ../scss/main.scss */
+img {
+  max-width: 100%;
+}
