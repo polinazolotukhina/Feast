@@ -16,6 +16,12 @@ $(document).ready(function(){
 		$(this).find('.cover').hide();
 		$(this).find('.corner').hide();
 	});
+
+    $(window).resize(function() {
+            $('#wrapper').height($(window).height() - 20);
+
+    });
+    $(window).trigger('resize');
 });
 
 
